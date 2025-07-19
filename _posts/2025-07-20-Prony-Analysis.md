@@ -11,4 +11,4 @@ pin: true
 media_subpath: '/posts/20180809'
 ---
 
-About Prony Analysis
+About Prony Analysisdd
