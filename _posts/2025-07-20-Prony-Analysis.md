@@ -12,3 +12,9 @@ pin: true
 
 전력계통의 모델은 전력 수급 방정식, d-q 커플링 방정식 등으로 인해 비선형적인 특성을 갖는다. 일반적인 전력계통의 소신호 안정도 해석은 특정한 운전점에서 계통을 선형화하여 고유값(eigenvalue)을 구하는 방식으로 진행된다. 이때, 계통의 고유값은 계통의 모드(mode)를 나타내며, 모드의 감쇠(damping)와 주파수(frequency)는 고유값의 실수부와 허수부로부터 계산된다.
 
+$$
+\begin{equation}
+  \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
+  \label{eq:series}
+\end{equation}
+$$
