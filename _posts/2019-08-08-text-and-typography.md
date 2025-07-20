@@ -8,6 +8,8 @@ tags: [typography]                     # 태그 (검색 및 필터링용)
 pin: true                              # 메인 페이지 상단 고정 여부
 math: true                             # 수학식 (LaTeX 등) 사용 여부
 mermaid: true                          # Mermaid.js 사용 여부 (다이어그램)
+published: false
+
 # image:                                 # 대표 이미지 설정
   # path: /commons/devices-mockup.png    # 이미지 경로
   # lqip: data:image/webp;base64,...     # 저화질 프리뷰 (로딩 속도 개선용)
