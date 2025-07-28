@@ -3,7 +3,7 @@ title: 프로니 해석 (Prony Analysis)
 description: 전력계통의 소신호를 분석하기 위해선 발전기, 송전선로, 재생에너지, 부하 등에 대한 정확한 모델 정보가 필요하다. 프로니 해석은 위 설비들에 대한 정확한 모델 없이도 현재 전력계통이 갖고 있는 모드(mode)에 대한 해석을 가능하게 한다. 이 포스터에서는 프로니 해석에 대한 원리와 전력계통에 적용에 대한 간단한 사례를 다룬다. 
 author: Chiwon_Seo
 date: 2025-07-19 06:00:00 +0800
-categories: [Power System, Data Driven]
+categories: [Power System, Prony Analysis]
 tags: [Prony Analysis]
 pin: true
 math: true
