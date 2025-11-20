@@ -130,6 +130,37 @@ $$
 
 전자를 통해 계산된 고유 벡터는 exact DMD 모드이며, 후자는 projected DMD 모드이다 [1].
 
+위 과정을 통해 도출된 DMD 모드와 고유값을 사용하여, 입력이 없는 시스템의 미래 상태를 다음과 같이 재구성 및 예측할 수 있다.
+
+- Discrete-time case:
+$$
+\begin{equation}
+\mathbf{x}_k \approx \Phi \mathbf{\Lambda}^{k-1} b
+\end{equation}
+$$
+
+- Continuous-time case:
+$$
+\begin{equation}
+\mathbf{x}(t) \approx \Phi e^{\Omega t} b
+\end{equation}
+$$
+
+여기서, $\Omega$는 다음과 같이 정의된다.
+
+$$
+\begin{equation}
+\Omega = \frac{\ln(\Lambda)}{\Delta t}
+\end{equation}
+$$
+
+$b$는 초기 상태 $\mathbf{x}_1$에 대한 계수 벡터로서, 다음과 같이 계산된다.
+$$
+\begin{equation}
+b = \Phi^{\dagger} \mathbf{x}_1
+\end{equation}
+$$
+
 
 ---
 ### References
